@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2018-06-19 13:14:31</Project_Created_Time>
+    <TD_Version>4.1.963</TD_Version>
+    <UCode>00000000</UCode>
+    <Name>sdram_ctrl</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>sdram_ctrl.v</File>
+            <File>sys_sdram_tb.v</File>
+            <File>sys_sdram_tb_ww.v</File>
+            <File>sys_sdram_tb_rr.v</File>
+        </Verilog>
+        <ADC_FILE/>
+        <SDC_FILE/>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL>sys_sdram_tb_rr/unknown</LABEL>
+        <MODULE>sys_sdram</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
+    </TOP_MODULE>
+    <Property>
+        <GlobalProperty/>
+        <DesignProperty/>
+        <RtlProperty/>
+        <GateProperty/>
+        <PlaceProperty/>
+        <RouteProperty/>
+        <TimingProperty/>
+        <SimProperty/>
+        <BitgenProperty::GeneralOption>
+            <bin>off</bin>
+            <c>off</c>
+            <s>on</s>
+            <svf>off</svf>
+            <svf_comment_on>off</svf_comment_on>
+            <time_info>on</time_info>
+            <version>0x00</version>
+        </BitgenProperty::GeneralOption>
+    </Property>
+    <Project_Settings>
+        <Step_Last_Change>2018-06-19 16:22:01</Step_Last_Change>
+        <Current_Step>0</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>
